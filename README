@@ -1,13 +1,18 @@
-RFC822 email address regex, based on Tim Fletcher's Ruby port
-http://tfletcher.com/lib/rfc822.rb
-
-Patched by Eric Lee.
-
-Includes patches for:
- * domains containing invalid characters
- * domains starting or ending in a hyphen
- * atoms starting or ending in a hyphen
-
-Licensed under a Creative Commons Attribution-ShareAlike 2.5 License
-http://creativecommons.org/licenses/by-sa/2.5/
-
+#
+# RFC822 Email Address Regex
+# --------------------------
+# 
+# Originally written by Cal Henderson
+# c.f. http://iamcal.com/publish/articles/php/parsing_email/
+#
+# Translated to Ruby by Tim Fletcher, with changes suggested by Dan Kubb.
+# http://tfletcher.com/lib/rfc822.rb
+#
+# Patched by Eric Lee, including:
+# * domains containing invalid characters
+# * domains starting or ending in a hyphen
+# * atoms starting or ending in a hyphen
+#
+# Licensed under a Creative Commons Attribution-ShareAlike 2.5 License
+# http://creativecommons.org/licenses/by-sa/2.5/
+#

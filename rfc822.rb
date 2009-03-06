@@ -1,5 +1,11 @@
 #
-# RFC822 email address regex, based on Tim Fletcher's Ruby port
+# RFC822 Email Address Regex
+# --------------------------
+# 
+# Originally written by Cal Henderson
+# c.f. http://iamcal.com/publish/articles/php/parsing_email/
+#
+# Translated to Ruby by Tim Fletcher, with changes suggested by Dan Kubb.
 # http://tfletcher.com/lib/rfc822.rb
 #
 # Patched by Eric Lee, including:
