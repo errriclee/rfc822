@@ -29,7 +29,7 @@ module RFC822
     domain_literal = "\\x5b(?:#{dtext}|#{quoted_pair})*\\x5d"
     quoted_string = "\\x22(?:#{qtext}|#{quoted_pair})*\\x22"
     domain_ref = atom
-    sub_domain = "[a-zA-Z0-9][\-a-zA-Z0-9]*[a-zA-Z0-9]"
+    sub_domain = "(?:[a-zA-Z0-9][\-a-zA-Z0-9]*[a-zA-Z0-9]|[a-zA-Z0-9]+)"
     word = "(?:#{atom}|#{quoted_string})"
     domain = "#{sub_domain}(?:\\x2e#{sub_domain})*"
     local_part = "#{word}(?:\\x2e#{word})*"
